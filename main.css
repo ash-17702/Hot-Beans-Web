@@ -5,8 +5,7 @@ body{
 }
 @font-face {
     font-family: 'Caviar Dreams';
-    src: url('CaviarDreams.woff2') format('woff2'),
-        url('CaviarDreams.woff') format('woff');
+    src: url('CaviarDreams.woff2') format('woff2'), url('CaviarDreams.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,6 +13,8 @@ body{
 /*Heading*/
 h1{
     font-family: "Caviar Dreams";
+    font-weight: normal;
+    font-style: normal;
     font-size: 200%;
     }
 
