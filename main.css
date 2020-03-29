@@ -112,6 +112,14 @@ p {
     .Profiles { 
         margin-top: 10%;
     }
+    .Profiles h4{
+        font-size: 120%;
+        margin: 2%;
+    }
+    .Profiles h5{
+        font-size: 100%;
+        margin :1%;
+    }
     .head{
         text-align: center
     }
@@ -121,8 +129,8 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
     }
     .profile{
         width: 20%;
