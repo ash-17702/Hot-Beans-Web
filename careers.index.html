@@ -19,7 +19,7 @@
         </div>
         <div class="mobilenav">
             <div class="topnav">
-            <a href="index.html" class="active">&lt;HotBeansWeb&gt;</a>
+            <a href="index.html" class="active" style="background-color: steelblue">&lt;HotBeansWeb&gt;</a>
             <div id="myLinks">
                 <a href="profiles.index.html">Profiles</a>
                 <a href="careers.index.html">Careers</a>
@@ -39,7 +39,7 @@
                 <button class="tablinks" onclick="Job(event, 'WebDev-front')">Web Developer - Front End</button>
                 <button class="tablinks" onclick="Job(event, 'ITTech')">IT Technician</button>
             </div>
-            <div id="WebDes" class="tabcontent" style="display: block" >
+            <div id="WebDes" class="tabcontent"  >
                 <h3>Web Designer</h3>
                 <p>Web Designers are responsible for designing a website, creating its look, layout and features. We are looking for web designers that can bring new, creative ideas to the table. You would be working closely with the rest of our development team and our customers to create and revamp innovative websites. </p>
                 <h3>Experience</h3>
@@ -94,23 +94,23 @@
                 </select><br>
                 <div class="textincolumn-left">
                     <div class="textin">
-                        First Name<br><input type="text" name="firstname">
+                        First Name<br><input type="text" name="firstname" placeholder="First Name">
                     </div>
                     <div class="textin">
-                        Email Adress<br><input type="text" name="email">
+                        Email Adress<br><input type="text" name="email" placeholder="example@gmail.com">
                     </div>
                 </div>
                 <div class="textincolumn-right">
                     <div class="textin">
-                        Surname<br><input type="text" name="surname">
+                        Surname<br><input type="text" name="surname" placeholder="Surname">
                     </div>
                     <div class="textin">
-                        Phone Number <br><input type="text" name="phoneno">
+                        Phone Number <br><input type="text" name="phoneno" placeholder="07829 738232">
                     </div>
                 </div>
                 <div class="cv">
                     Upload CV<br>
-                    <input id="txt" type = "text" value = "CV" onclick ="javascript:document.getElementById('file').click();">
+                    <input id="txt" type = "text" placeholder="File Path" onclick ="javascript:document.getElementById('file').click();">
                     <input id="txt" type="button" value = "Upload File" 
                     onclick ="javascript:document.getElementById('file').click();">
                     <input id = "file" type="file" style='visibility: hidden;' name="img" onchange="ChangeText(this, 'txt');"/>

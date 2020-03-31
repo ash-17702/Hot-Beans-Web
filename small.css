@@ -6,7 +6,7 @@ body{
 
 h1 { 
     font-family: "Open Sans"; font-size: 45px; font-style: normal;
-    color: darkslategrey;   
+    color: darkslategrey;  
 }
 h2 {
     color : darkslategrey;
@@ -36,8 +36,11 @@ ul {
 
 .topnav {
     overflow: hidden;
-    position: relative;
-    border: solid grey 1px;     
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
 }
 
 .topnav #myLinks {
@@ -50,11 +53,13 @@ ul {
     text-decoration: none;
     font-size: 25px;
     display: block;
+    background-color: #f1f1f3;
     font-family: "Courier New", Courier, monospace;
 }
 .topnav a.icon {
     display: block;
     position: absolute;
+    background-color: steelblue;
     right: 0;
     top: 0;
 }
@@ -64,21 +69,8 @@ ul {
     color: black;
 }
 
-.active {
-    background-color: steelblue;
-    color: white;
-}
-.Home-bottom{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center
-}
-.bottom-text, .bottom-text a{
-    width: 50%; 
-    text-decoration: none;
-    color: black
-}
+
+
 /*Home*/
 .Home h1{
     margin-left :1%;
@@ -101,18 +93,31 @@ ul {
     padding-bottom:10%;
     padding-top: 1%;
     background-color: steelblue;
-}  
+} 
+.Home-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center
+}
+.bottom-text, .bottom-text a{
+    width: 50%; 
+    text-decoration: none;
+    color: black
+}
 .Home-top img{
     width: 100%;
+    margin-top: 9%;
 }
 /*Profiles*/
 .head{
     text-align: center;
+    margin-top: 13%;
 }
 .profile{
     background-color: steelblue;
     display: flex;
-    margin-bottom: 2%
+    margin-bottom: 2%;
 }
 .profile img{
     width:40%;
@@ -128,6 +133,7 @@ ul {
 /*careers*/
 .careers h1{
     text-align: center;
+    margin-top: 13%;
 }
 .tab {
     overflow: hidden;
@@ -254,8 +260,8 @@ ul {
 }
 /*Courses*/
 .Courses h1{
-    margin-left :1%;
     text-align: center;
+    margin-top: 13%;
 }
 .Courses p{
     margin-left: 1%;
